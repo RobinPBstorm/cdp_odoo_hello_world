@@ -82,3 +82,9 @@ Et les fois suivantes:
 ```bash
 git push
 ```
+
+## Créer une branche
+
+```
+git branch nom_branche
+```
