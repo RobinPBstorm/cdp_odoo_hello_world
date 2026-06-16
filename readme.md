@@ -127,3 +127,7 @@ git rebase branche_cible
 # réécrire l'historique de modification
 git push -f
 ```
+
+## Ajout d'un gitignore
+
+Un fichier gitignore permet d'empêcher l'envoie de fichier indésirable sur le dépôt distant.
