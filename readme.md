@@ -106,4 +106,12 @@ dev -> test
 git merge branche_cible
 ```
 
+## la gestion des pull requests
 
+On fait un changement dans une branche
+
+on push ces changements
+
+Sur github, on demande une pull requests => merge nos changements sur une autre branche
+
+Une autre personne pourra vérifier les modifications, les valider ou les commenter
