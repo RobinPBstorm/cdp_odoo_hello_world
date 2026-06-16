@@ -88,3 +88,21 @@ git push
 ```
 git branch nom_branche
 ```
+
+## Rapatrier la dernière version du projet
+
+```
+git clone lien_du_depot
+```
+
+## Récupérer les modifications
+
+Récupére l'information de changement existant
+```
+git fetch
+```
+
+Va rechercher les changements du dépots distant vers le local
+```
+git pull
+```
