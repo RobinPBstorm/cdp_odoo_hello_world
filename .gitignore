@@ -1,0 +1,12 @@
+# fichier spécifique
+.env
+
+# tous les fichiers format .txt
+*.txt
+# ne pas ignorer requirement.txt
+!requirement.txt
+# ne pas ignorer les fichiers txt dans le sous-dossier
+!/sous-dossier/*.txt
+
+# ignore le dossier mon-dossier et son contenu
+/mon-dossier
