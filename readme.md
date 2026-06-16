@@ -115,3 +115,15 @@ on push ces changements
 Sur github, on demande une pull requests => merge nos changements sur une autre branche
 
 Une autre personne pourra vérifier les modifications, les valider ou les commenter
+
+## repositionner une branche
+
+Pour anticiper une gestion de conflit, on peut rebase une de branche sur autre.
+Ce qui implique qu'on change le commit qui sert de base à notre branche.
+
+``` bash
+git rebase branche_cible
+
+# réécrire l'historique de modification
+git push -f
+```
