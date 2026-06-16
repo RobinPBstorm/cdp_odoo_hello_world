@@ -106,3 +106,22 @@ Va rechercher les changements du dépots distant vers le local
 ```
 git pull
 ```
+
+## Changer de branche
+
+```
+git checkout
+```
+
+## Rattraper les changements d'une branche vers une autre
+
+On essaye de passer par certaine branche de manière propre:
+feature -> dev
+dev -> test
+...
+
+```
+git merge branche_cible
+```
+
+
